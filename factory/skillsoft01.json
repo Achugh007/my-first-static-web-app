@@ -1,0 +1,9 @@
+{
+	"name": "skillsoft01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "262fbe1a-3b0b-4827-92e9-50e85bc538dc",
+		"tenantId": "08cb0f00-5e6e-47e8-8914-93508dc610fe"
+	}
+}
