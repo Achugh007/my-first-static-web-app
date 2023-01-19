@@ -1,0 +1,19 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [
+			"skillsoft"
+		],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2023-01-19T06:08:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
