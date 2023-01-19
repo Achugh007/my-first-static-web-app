@@ -43,13 +43,7 @@
 					},
 					"enableLogging": true,
 					"storeSettings": {
-						"type": "AzureBlobStorageReadSettings",
-						"recursive": true,
-						"modifiedDatetimeEnd": {
-							"value": "@{adddays(pipeline().TriggerTime, -30)}",
-							"type": "Expression"
-						},
-						"wildcardFileName": "*"
+						"type": "AzureBlobStorageReadSettings"
 					}
 				}
 			}
